@@ -1,0 +1,24 @@
+// import gridle
+@import "../../../../node_modules/coffeekraken-gridle/index";
+
+// setting up the grid
+@include g-setup((
+  columns: 12,
+  column-width: 60,
+  width: 1200,
+  container-width: 85vw,
+  container-max-width: 1440px
+));
+
+// make the use of media queries really easy
+@include g-register-state(tablet, (
+  min-width : 640px
+));
+@include g-register-state(desktop, (
+  min-width : 992px
+));
+
+// even with full custom queries :
+@include g-register-state(landscape, (
+  query : "(orientation : landscape)"
+));

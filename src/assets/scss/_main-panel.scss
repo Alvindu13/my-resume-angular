@@ -4,7 +4,9 @@
   padding-bottom: 45px;
   @include panel-gradient($black-color);
   position: relative;
-  overflow: hidden;
+  //overflow: hidden;
+  //overflow: scroll; //petite animation en scroll super drôle
+  z-index: 1;
 
   .header{
     .title{
@@ -21,6 +23,16 @@
       }
     }
   }
+
+  .logo-img{
+    z-index: 2;
+  }
+
+  .title{
+    margin-top: 20px;
+    cursor: progress;
+  }
+
 }
 
 // import settings :
