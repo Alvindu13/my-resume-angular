@@ -1,0 +1,34 @@
+$sans-serif-family:          'Montserrat', 'Helvetica Neue',  Arial, sans-serif;
+
+$none:                       0   !default;
+$border-thin:                1px !default;
+$border-thick:               2px !default;
+
+$white-color:                #FFFFFF !default;
+$white-bg:                   #FFFFFF !default;
+$orange-bg:                  #e95e38 !default;
+
+$smoke-bg:                   #F5F5F5 !default;
+$light-black:                #444    !default;
+
+$black-bg:                   rgba(30,30,30,.97) !default;
+
+$black-color:                #2c2c2c !default;
+$black-hr:                   #444444 !default;
+
+$hr-line:                    rgba(0,0,0, .1) !default;
+
+$light-gray:                 #E3E3E3 !default;
+$medium-gray:                #DDDDDD !default;
+$dark-gray:                  #9A9A9A !default;
+
+$opacity-gray-3:             rgba(222,222,222, .3) !default;
+$opacity-gray-5:             rgba(222,222,222, .5) !default;
+$opacity-gray-8:             rgba(222,222,222, .8) !default;
+
+
+$opacity-5:                  rgba(255,255,255, .5) !default;
+$opacity-8:                  rgba(255,255,255, .8) !default;
+
+$datepicker-color-days:             rgba(255,255,255, .8)  !default;
+$datepicker-color-old-new-days:     rgba(255,255,255, .4)  !default;

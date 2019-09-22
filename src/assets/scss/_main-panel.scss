@@ -1,0 +1,28 @@
+.panel-header {
+  height: 260px;
+  padding-top: 80px;
+  padding-bottom: 45px;
+  @include panel-gradient($black-color);
+  position: relative;
+  overflow: hidden;
+
+  .header{
+    .title{
+      color: $white-color;
+    }
+    .category{
+      max-width: 600px;
+      color: $opacity-5;
+      margin: 0 auto;
+      font-size: 13px;
+
+      a{
+        color: $white-color;
+      }
+    }
+  }
+}
+
+.test{
+  $gl-colCount:5;
+}
