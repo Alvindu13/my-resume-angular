@@ -28,11 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss",
-              "src/styles.css",
-              "node_modules/gridlex/src/gridlex.scss",
-              "node_modules/gridlex/dist/gridlex.css",
-              "src/assets/css/gridlex.min.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },

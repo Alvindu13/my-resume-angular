@@ -23,6 +23,15 @@
   }
 }
 
-.test{
-  $gl-colCount:5;
+// import settings :
+@import 'gridle/settings';
+@import "../scss/gridlex/gridlex.scss";
+
+#sidebar {
+  background : yellow;
+
+  // update sidebar look and feel for tablet
+  @include g-state(tablet) {
+    background : red;
+  }
 }

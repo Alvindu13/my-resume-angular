@@ -8,6 +8,46 @@
 </div>
 
 
+<!-- If want to use mixins, no need to add classes -->
+<div class="container">
+  <div class="gr gr--flex gr--wrap gr--nowrap@tablet">
+    <div class="col col--3" id="header">
+      I'm the header, 12 columns width
+    </div>
+    <div class="col col--3 col--5@tablet" id="content">
+      I'm the content, 12 columns on mobile, but 8 from tablet
+    </div>
+    <div class="col col--3 col--4@tablet" id="sidebar">
+      I'm the sidebar, 12 columns on mobile, but 4 from tablet
+    </div>
+  </div>
+</div>
 
 
-
+<div class="grid">
+  <div class="col-6 text-center">
+    col-6
+  </div>
+  <div class="col-6 grid">
+    <div class="col-4">
+      col-4
+    </div>
+    <div class="col-8 grid">
+      <div class="col-6">
+        col-6
+      </div>
+      <div class="col-6">
+        col-6
+      </div>
+      <div class="col-4">
+        col-4
+      </div>
+      <div class="col-4">
+        col-4
+      </div>
+      <div class="col-4">
+        col-4
+      </div>
+    </div>
+  </div>
+</div>
